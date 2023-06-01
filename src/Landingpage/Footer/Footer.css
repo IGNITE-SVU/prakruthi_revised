@@ -1,0 +1,34 @@
+.footerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40vh;
+    background-color: #2E6665;
+    border-radius: 5rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.footerContainer h1{
+    text-align: center;
+    transform: translate(60%,-150%);
+    color: white;
+}
+.socialIcons{
+    display: flex;
+    flex-direction: row;
+    
+}
+.icon{
+    height: 2rem;
+    width: 2rem;
+    transform: translate(-300%,200%);
+    margin-right: 2rem;
+    border-radius: 50% 50%;
+}
+.icons:hover{
+  color: white;
+  background-color: white;
+}

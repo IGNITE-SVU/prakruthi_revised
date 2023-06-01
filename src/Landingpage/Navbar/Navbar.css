@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&family=Righteous&family=Rubik+Pixels&display=swap');
+
+
+*{
+  margin: 0;
+  border: 0;
+  /* font-family: 'DynaPuff', cursive; */
+  font-family: 'Righteous';
+/* font-family: 'Rubik Pixels', cursive; */
+word-spacing: 0.2rem;
+letter-spacing: 0.1rem;
+text-decoration: none;
+}
+
+.active{
+  text-decoration: none;
+  color: #255251;
+}
+.navbar{
+  background: #F5F5F5;
+  padding-right: 15px;
+  padding-left: 15px;
+  color: #255251;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.navdiv{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.navdiv ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  text-decoration: none;
+  margin: 2rem;
+  gap: 1rem;
+  transform: translateX(30%);
+}
+.navbar ul button{
+  transform: translateX(150%);
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+  gap: 1rem;
+}
+.logo a img{
+  height: 55px;
+  width: 55px;
+}
